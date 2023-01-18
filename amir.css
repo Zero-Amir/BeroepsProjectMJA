@@ -71,5 +71,16 @@ body {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(kratos.jpg);
     background-position: center;
     background-size: cover;
-    height: 43vw;
+    height: 30vw;
+  }
+
+  #quiz {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  .answers label {
+    margin-right: 10px;
+   
   }
