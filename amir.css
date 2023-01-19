@@ -74,12 +74,18 @@ body {
     font-size: 30px;
     color: white;
     text-align: center;
+
+
   }
 
   .answers label {
-    margin-right: 10px;
+    margin-right: 100px;
+    text-shadow: 7px 7px 10px  darkred, 7px 8px 8px blue;
+    font-size: medium;
    
   }
+
+  
 
   * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -170,4 +176,8 @@ img {vertical-align: middle;}
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.myQuestions label {
+  background-color: red;
 }

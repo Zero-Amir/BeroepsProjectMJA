@@ -1,23 +1,65 @@
 var myQuestions = [
     {
-      question: "What is 10/2?",
+      question: "1.Kratos has white skin in the game. How did this happen?",
       answers: {
-        a: '3',
-        b: '5',
-        c: '115'
+        A: ' he was born like that',
+        B: 'he was involved in an accident as a boy',
+        C: 'the ashes of his dead family were fastened to his skin',
+        D: ' the ashes of many of his defeated foes were fastened to his skin'
       },
-      correctAnswer: 'b'
+      correctAnswer: 'C'
     },
+
     {
-      question: "What is 30/3?",
+      question: "2.Who is the first god that Kratos receives magic from?",
       answers: {
-        a: '3',
-        b: '5',
-        c: '10'
+        A: 'Ares',
+        B: 'Zeus',
+        C: 'Athena',
+        D: 'Poseidon'
       },
-      correctAnswer: 'c'
+      correctAnswer: 'D'
+    },
+
+    {
+      question: "3.What is the creature called that Kratos is required by Posiedon to kill?",
+      answers: {
+        A: 'Hydra',
+        B: 'Beast of the sea',
+        C: 'Loch Ness',
+        D: 'Ocean killer'
+      },
+      correctAnswer: 'A'
+
+    },
+
+    {
+      question: "4.What must you recover in order to open three doors within Pandora's Temple?",
+      answers: {
+        A: 'Keys',
+        B: 'Fingers',
+        C: 'Skulls',
+        D: 'Daggers'
+      },
+      correctAnswer: 'C'
+    },
+
+    {
+      question: "5.What is the final boss in the Challenge of Hades?",
+      answers: {}
     }
+
+
+
+
+
+
+
+
+
+
   ];
+
   
   var quizContainer = document.getElementById('quiz');
   var resultsContainer = document.getElementById('results');
