@@ -2,6 +2,8 @@ body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
     background-color: black;
+    margin: 5px;
+    padding: 5px;
   
   }
   
