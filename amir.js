@@ -1,11 +1,11 @@
 var myQuestions = [
     {
-      question: "1.Kratos has white skin in the game. How did this happen?",
+      question: "1.What is the name of the main character in God of war ?",
       answers: {
-        A: ' he was born like that',
-        B: 'he was involved in an accident as a boy',
-        C: 'the ashes of his dead family were fastened to his skin',
-        D: ' the ashes of many of his defeated foes were fastened to his skin'
+        A: 'Deimos',
+        B: 'Hermes',
+        C: 'Kratos',
+        D: 'Zeus'
       },
       correctAnswer: 'C'
     },
@@ -46,8 +46,25 @@ var myQuestions = [
 
     {
       question: "5.What is the final boss in the Challenge of Hades?",
-      answers: {}
-    }
+      answers: {
+        A: 'a giant undead legionnaire',
+        B: 'a giant minotaur',
+        C: 'hades himself',
+        D: ' a giant cerberus'
+      },
+      correctAnswer: 'B'
+    },
+
+    {
+      question: "6.Which god gives Kratos the power of Medusa's Gaze?",
+      answers: {
+        A: 'Athena',
+        B: 'Zeus',
+        C: 'the Oracle of Athens',
+        D: 'the Cities Oracle'
+      },
+      correctAnswer: 'C'
+    },
 
 
 
