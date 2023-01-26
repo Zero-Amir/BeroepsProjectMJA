@@ -2,8 +2,8 @@ body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
   background-image: linear-gradient(black, darkred);
-  margin: 5px;
-  padding: 5px;
+  margin: 0px;
+  padding: 0px;
 
 }
 
@@ -101,7 +101,7 @@ img {
 
 
 .slideshow-container {
-  max-width: 1500px;
+  max-width: 2000px;
   position: relative;
   margin: auto;
 }
@@ -315,6 +315,14 @@ button:active {
 
 #answers {
   margin-top: 1rem;
+}
+
+.zir {
+  margin: auto;
+  width: 60%;
+  border: 3px solid black;
+  padding: 10px;
+  color: yellow;
 }
 
 
