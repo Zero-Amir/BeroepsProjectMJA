@@ -2,36 +2,109 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>God of war</title>
-    <link rel="stylesheet" href="amir.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>God of war</title>
+  <link rel="stylesheet" href="amir.css">
 </head>
 
 <body>
-    <header>
-        <h1>GOD OF WAR</h1>
-    </header>
+  <header>
+    <h1>GOD OF WAR</h1>
+  </header>
 
 
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a><br>
-        <a href="mihai.html">Arkham knight</a><br>
-        <a href="amir.html">God of war</a><br>
-        <a href="jeal.html">GTA</a><br>
-    </div>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open </span>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a><br>
+    <a href="mihai.html">Arkham knight</a><br>
+    <a href="amir.html">God of war</a><br>
+    <a href="jeal.html">GTA V</a><br>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open </span><br><br>
 
-    <div class="wrapper">
-        
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="Giant.jpg" style="width:100%">
+      <div class="text">Caption One</div>
     </div>
-    <div>
-        <div id="quiz"></div> <br>
-        <button id="submit">Get Results</button> <br>
-        <div id="results"></div> <br>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="kratos.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
     </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="zeus.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="Ares.jpg" style="width:100%">
+      <div class="text">Caption Four</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="kr.jpg" style="width:100%">
+      <div class="text">Caption Five</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+  <br>
+  <div id="quiz-container">
+    <div class="questions">
+      <h2 id="question"></h2>
+      <ol type="A">
+        <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+        <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+        <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+        <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+      </ol>
+      <h4 id="stat"></h4>
+    </div>
+  </div>
+
+    <div id="scoreboard">
+      <h2 id="score-title">Your Score</h2>
+      <h2 id="score"></h2>
+      <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+      <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
+    </div>
+    <div id="answerBank">
+      <h2>Answers :</h2>
+      <ol type="1" id="answers">
+
+      </ol>
+      <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+    </div>
+     <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+
+    </div>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="drie">
+
+    </div>
+
+
+
+
 
 
 
