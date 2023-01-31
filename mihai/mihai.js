@@ -40,7 +40,7 @@ function openNav() {
 var question= document.getElementById('question');
 var quizContainer= document.getElementById('quiz-container');
 var scorecard= document.getElementById('scorecard');
-var option0= document.getElementById('option0');
+var option0= document.querySelector('option0');
 var option1= document.getElementById('option1');
 var option2= document.getElementById('option2');
 var option3= document.getElementById('option3');
@@ -49,6 +49,10 @@ var points= document.getElementById('score');
 var span= document.querySelectorAll('span');
 var i=0;
 var score= 0;
+option0.addEventListener('click',() =>{
+    document.body.style.backgroundimage = "url(/mihai-img/img1.jpg)"
+});
+
 
 //function to display questions
 function displayQuestion(){
@@ -60,7 +64,10 @@ function displayQuestion(){
     option1.innerHTML= questionBank[i].option[1];
     option2.innerHTML= questionBank[i].option[2];
     option3.innerHTML= questionBank[i].option[3];
-    stat.innerHTML= "Question"+' '+(i+1)+' '+'of'+' '+questionBank.length;
+    stat.innerHTML= "Question"+' '+(i+1)+' '+'of'+' '+questionBank.length;  
+    option0.addEventListener('click',() =>{
+        document.body.style.backgroundimage = "url(/mihai-img/img1.jpg)"
+    });  
 }
 
 //function to calculate scores

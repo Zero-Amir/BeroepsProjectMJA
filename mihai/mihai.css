@@ -4,6 +4,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(/mihai-img/bat.webp);
+    background-size: 100vw;
     margin: 0;
     padding: 0;
   }
@@ -73,8 +74,7 @@ body {
   .questions{ 
   margin: 3rem auto; 
   width: 90vw; 
-  padding: 2rem; 
-  background: rgba(0,255,221,0.45); 
+  padding: 2rem;  
   cursor: default;
   border-radius: 1rem;}
 #question{ 
@@ -82,7 +82,6 @@ body {
 .option{ 
  margin-bottom: 0.5rem;
  font-size: 1.2rem; 
- border-bottom: solid 0.1rem rgb(51, 255, 0);
 width: 15rem; 
 background: 
 lightblue; border-radius: 1rem;
