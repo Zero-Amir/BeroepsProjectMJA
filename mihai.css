@@ -3,7 +3,7 @@ body {
     transition: background-color .5s;
     background-color: rgb(0, 0, 0);
     color: white;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(/mihai-img/bat.webp);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(mihai-img/bat.webp);
     background-size: 100vw;
     margin: 0;
     padding: 0;
