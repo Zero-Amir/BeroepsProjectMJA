@@ -52,12 +52,12 @@ var questionBank = [
   },
 
   {
-    question: '9.What creature carries the Oracle of Athens away?',
+    question: 'What creature carries the Oracle of Athens away?',
     option: ['Harpies', 'Cerberus', 'Minotaur', 'Gorgons'],
     answer: 'Harpies'
   },
   {
-    question: '10.Who helps Kratos out of the underworld?',
+    question: 'Who helps Kratos out of the underworld?',
     option: ['Athena', 'the Gravedigger', ' the oracle of Athens', 'a Spartan soldier'],
     answer: 'the Gravedigger'
   }
