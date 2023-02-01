@@ -11,6 +11,16 @@
     <img src="Jeal_IMG/gta-5.png" alt="img" id="img" class="img">
     <h1 id="title">GTA V Quiz</h1>
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a><br>
+        <a href="/mihai-img/Arkham Knight.html">Arkham Knight</a><br>
+        <a href="amir.html">God of war</a><br>
+        <a href="jeal.html">GTA V</a><br>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu </span>
+
+
     <!-- quiz-container -->
     <div id="quiz-container">
         <!-- question container -->
@@ -36,7 +46,7 @@
         <img src="Jeal_IMG/gta-5.png" alt="">
         <h2 id="score-title">Your Score</h2>
         <h2 id="score"></h2>
-        <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+        <a href="index.html"><button type="button" id="score-btn" onclick="backToQuiz()">Return to menu</button></a>
         <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
     </div>
 
