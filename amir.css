@@ -300,6 +300,7 @@ button:active {
 #score-btn,
 #check-answer {
   margin-top: 1rem;
+  color: white;
   
 }
 
