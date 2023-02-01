@@ -42,8 +42,8 @@
         },
         {
             question : 'Why does Trevor hate Michael?',
-            option : ['Trevor just hates everyone.','Michael lied to him about Brad being in prison, and Michael faking his death.','Trevor is jealous.','Trevor is just crazy.'],
-            answer : 'Michael lied to him about Brad being in prison, and Michael faking his death.'
+            option : ['Trevor just hates everyone.','Michael faked his death to take the money.','Trevor is jealous.','Trevor is just crazy.'],
+            answer : 'Michael faked his death to take the money.'
         },
         {
             question : 'What did Michael ACTUALLY steal in the "Monkey Business" mission?',
@@ -154,3 +154,15 @@
 
 
     displayQuestion();
+
+    function openNav() {
+         document.getElementById("mySidenav").style.width = "250px"; 
+         document.getElementById("main").style.marginLeft = "250px"; 
+         document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+         } 
+
+    function closeNav() { 
+        document.getElementById("mySidenav").style.width = "0"; 
+        document.getElementById("main").style.marginLeft = "0"; 
+        document.body.style.backgroundColor = "white"; 
+    }
