@@ -36,32 +36,32 @@ function openNav() {
         answer : 'Being forgotten'
     },
     {
-        question : 'Who is the first major incounter in the game as Batman?',
-        option : ['Scarecrow','Poison Ivy','Arkham Knight','Pinguin'],
+        question : 'How many Riddler trophies  can you collect?',
+        option : ['269','420','243','251'],
+        answer : '243'
+    },
+    {
+        question : 'Which Joker clones kills other clones?',
+        option : ['Henry Addams','Christina Bell','Jhonny Charisma','Albert Bell'],
+        answer : 'Henry Addams'
+    },
+    {
+        question : 'Who is the Narrator at the start of the game?',
+        option : ['Lucius Fox','Bruce Wayne','Commisioner Gordon','Dick Gayson'],
+        answer : 'Commisioner Gordon'
+    },
+    {
+        question : 'Who helps Batman to neutralize Scarecrows toxin?',
+        option : ['Penguin','Nightwing','Poison Ivy','Killer Corc'],
         answer : 'Poison Ivy'
     },
     {
-        question : 'Which villan does not apear in the game?',
-        option : ['Harley Quinn','Bane','Killer Croc','The Joker'],
-        answer : 'Bane'
+        question : 'Who are the main villans?',
+        option : ['Poison Ivy, Scarecrow and Bane','Scarecrow and Arkham Knight','Penguin, The Ridder and Joker','Catwoman and Arkham Knight'],
+        answer : 'Scarecrow and Arkham Knight'
     },
     {
-        question : 'Who did Scarecrow hire to build his gasbomb?',
-        option : ['Lucius Fox','Simon Sagg','Alfred Pennyworth','Oracle'],
-        answer : 'Simon Sagg'
-    },
-    {
-        question : 'Who does batman team up with to take down Pinguin?',
-        option : ['Nightwing','Robin','Alfred','Henry Adams'],
-        answer : 'Nightwing'
-    },
-    {
-        question : 'Whats Jokers biggest frear?',
-        option : ['Losing respect','Being forgotten','Batman','Losing Harley Quinn'],
-        answer : '1967'
-    },
-    {
-        question : 'Wich character is belived to have commited suicide?',
+        question : 'Witch character is belived to have commited suicide?',
         option : ['Harley Quinn','Oracle','Scarecrow','Nightwing'],
         answer : 'Oracle'
     },
@@ -71,9 +71,9 @@ function openNav() {
         answer : '3'
     },
     {
-        question : 'Who did Scarecrow hire to build his gasbomb?',
-        option : ['Lucius Fox','Simon Sagg','Alfred Pennyworth','Oracle'],
-        answer : 'Simon Sagg'
+        question : 'Why is Joker always around Batman?',
+        option : ['Infested with Scarecrows toxin','Due to Jokers blood in Batman','Both of the above','Joker isnt dead yet'],
+        answer : 'Both of the above'
     },
     {
         question : 'Who do you have to save from The Riddler?',
